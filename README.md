@@ -1,3 +1,32 @@
+# firebase-react-practice
+
+## Firebase config
+
+Set firebase configs
+
+`/src/firebase/config.js`
+
+```js
+export const firebaseConfig = {
+  apiKey: '[API_KEY]',
+  authDomain: '[AUTH_DOMAIN]',
+  databaseURL: '[DATABASE_URL]',
+  projectId: '[PROJECT_ID]',
+  storageBucket: '[STORAGE_BUCKET]',
+  messagingSenderId: '[MESSAGING_SENDER_ID]',
+};
+```
+
+`/.firebaserc`
+
+```
+{
+  "projects": {
+    "default": "[YOUR_FIREBASE_PROJECT]"
+  }
+}
+```
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
